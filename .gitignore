@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Environment
+.env
+!.env.example
+
+# Model weights & checkpoints (download / train separately)
+checkpoints/
+finetune/checkpoints/
+models--*/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.gguf
+
+# Runtime outputs
+vqa_outputs*/
+*.log
+*.pid
+
+# Frontend
+node_modules/
+frontend/dist/
+*.local
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

@@ -1,0 +1,5 @@
+# Extra dependencies for training / evaluation (on top of ../requirements.txt)
+peft==0.18.0
+bert_score
+nltk
+tqdm

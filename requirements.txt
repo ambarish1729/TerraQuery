@@ -1,0 +1,25 @@
+# Core runtime for the VQA (vqa/) and SAM-3 (sam3/) services.
+# torch / unsloth / transformers-from-source are installed by scripts/install.sh.
+numpy==2.2.6
+pillow==12.0.0
+opencv-python-headless==4.12.0.88
+scipy
+torch==2.9.1
+torchvision==0.24.1
+transformers==4.57.3
+accelerate==1.12.0
+peft==0.18.0
+einops==0.8.1
+
+# Serving
+fastapi==0.122.0
+uvicorn==0.38.0
+python-multipart==0.0.20
+python-dotenv
+pydantic==2.12.5
+requests==2.32.5
+httpx
+
+# Agent / tool calling
+langchain-core==1.1.0
+langgraph==1.0.4
